@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+.kabluk {
+    width: 200px;
+    border-radius: 28px;
+    border:1px solid black;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    margin-top:50px;
+}
+
+.hobby {
+    border-radius: 28px;
+    border:1px solid black;
+    backdrop-filter: blur(5px);
+}
+
+.hobby h2 {
+    text-align: center
+}
+
+.list {
+    list-style: none;
+}
+
+.seti {
+    text-align: center
+}
+
+#so {
+    word-spacing: 100px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://img2.akspic.ru/crops/2/7/4/8/2/128472/128472-gora-minimalizm-voshod_solnca-zakat-utro-3840x2160.jpg);
+    background-size: cover;
+    position:absolute;
+    top:0px;
+    left:0px;
+    vertical-align: middle;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: lem;
+    font-weight: 600;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
